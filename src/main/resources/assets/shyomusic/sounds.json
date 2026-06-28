@@ -1,0 +1,34 @@
+{
+  "i_do": {
+    "sounds": [
+      {
+        "name": "shyomusic:i_do",
+        "stream": true
+      }
+    ]
+  },
+  "drift_away": {
+    "sounds": [
+      {
+        "name": "shyomusic:drift_away",
+        "stream": true
+      }
+    ]
+  },
+  "jazz_jazz_jazz": {
+    "sounds": [
+      {
+        "name": "shyomusic:jazz_jazz_jazz",
+        "stream": true
+      }
+    ]
+  },
+  "vivace": {
+    "sounds": [
+      {
+        "name": "shyomusic:vivace",
+        "stream": true
+      }
+    ]
+  }
+}

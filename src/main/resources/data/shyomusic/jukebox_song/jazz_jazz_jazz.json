@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.shyomusic.jazz_jazz_jazz_music_disc.desc"
+  },
+  "length_in_seconds": 255.0,
+  "sound_event": "shyomusic:jazz_jazz_jazz"
+}

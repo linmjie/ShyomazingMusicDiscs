@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "shyomusic:item/drift_away_music_disc"
+  }
+}
