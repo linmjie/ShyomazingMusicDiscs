@@ -89,6 +89,9 @@ public class Shyomusic {
             event.accept(ModItems.JAZZ_JAZZ_JAZZ_MUSIC_DISC);
             event.accept(ModItems.VIVACE_MUSIC_DISC);
         }
+        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+            event.accept(ModItems.MUSIC_DISC_FRAGMENTS);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

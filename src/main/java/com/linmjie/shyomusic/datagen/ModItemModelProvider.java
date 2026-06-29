@@ -16,6 +16,7 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+        basicItem(ModItems.MUSIC_DISC_FRAGMENTS.get());
         basicItem(ModItems.I_DO_MUSIC_DISC.get());
         basicItem(ModItems.DRIFT_AWAY_MUSIC_DISC.get());
         basicItem(ModItems.JAZZ_JAZZ_JAZZ_MUSIC_DISC.get());

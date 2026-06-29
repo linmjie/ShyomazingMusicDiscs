@@ -1,6 +1,8 @@
 package com.linmjie.shyomusic.datagen;
 
 import com.linmjie.shyomusic.Shyomusic;
+import com.linmjie.shyomusic.item.ModItems;
+import com.linmjie.shyomusic.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
@@ -17,6 +19,10 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
 
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.MUSIC_DISC_FRAGMENTS, 3)
+                .requires(ModTags.Items.BASIC_MUSIC_DISC)
+                .unlockedBy("has_basic_music_disc", has(ModTags.Items.BASIC_MUSIC_DISC))
+                .save(recipeOutput);
     }
 
 

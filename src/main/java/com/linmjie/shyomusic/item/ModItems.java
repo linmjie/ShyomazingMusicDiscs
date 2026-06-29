@@ -11,6 +11,8 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Shyomusic.MODID);
 
+    public static final DeferredItem<Item> MUSIC_DISC_FRAGMENTS = ITEMS.registerSimpleItem("music_disc_fragments");
+
     public static final DeferredItem<Item> I_DO_MUSIC_DISC = ITEMS.register("i_do_music_disc",
             () -> new Item(new Item.Properties().jukeboxPlayable(ModSounds.I_DO_KEY).stacksTo(1).rarity(Rarity.RARE)));
 

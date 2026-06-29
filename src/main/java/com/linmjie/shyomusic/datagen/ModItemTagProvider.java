@@ -1,9 +1,12 @@
 package com.linmjie.shyomusic.datagen;
 
 import com.linmjie.shyomusic.Shyomusic;
+import com.linmjie.shyomusic.util.ModTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Block;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
@@ -18,5 +21,8 @@ public class ModItemTagProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        tag(ModTags.Items.BASIC_MUSIC_DISC)
+                .addTags(ItemTags.CREEPER_DROP_MUSIC_DISCS)
+                .add(Items.MUSIC_DISC_OTHERSIDE);
     }
 }
