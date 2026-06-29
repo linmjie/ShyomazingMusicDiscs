@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "shyomusic:item/vivace_music_disc"
-  }
-}

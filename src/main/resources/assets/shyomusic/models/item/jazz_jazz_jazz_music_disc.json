@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "shyomusic:item/jazz_jazz_jazz_music_disc"
-  }
-}
